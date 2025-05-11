@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Custom Stylesheets -->
+		<link href="css/style.css" rel="stylesheet">
+        <link href="css/style2.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Open+Sans:400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cairo:400,400i,700,700i&subset=arabic" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
+		
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/logo/logo-png.png">
+        <link rel="apple-touch-icon" href="assets/logo/logo-png.png">
+    
+        <!-- Script JS-->
+        <script src="js/script.js"></script>
+    
+        <!-- Title -->
+        <title>Crossroads Adventure</title>
+    </head>
+    
+
+<body>
+
+	<div id="scroll-progress"><span class="scroll-percent"></span></div>
+
+	<!-- Website Loading
+	============================================= -->	
+	<div id="website-loading">
+		<div class="loader">
+			<div class="la-ball-scale la-2x">
+			    <div></div>
+			</div>
+		</div><!-- .loader end -->
+	</div><!-- .website-loading end -->
+
+	<!-- Document Full Container
+	============================================= -->
+	<div id="full-container">
+
+		<!-- Header
+		============================================= -->
+		<header id="header">
+			<div id="header-wrap" style="background-color: rgba(84, 221, 221, 0.3);">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<a class="logo" href="index.html">
+								<img src="assets/logo/logo-png.png" id="header-logo" alt="" loading="lazy">
+							</a>
+							<ul class="main-menu" id="main-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="experiencespage.html" ><span id="experiences-link">Experiences<i class="fa fa-caret-down" aria-hidden="true" style="margin-left:5px ;"></i></span></a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
+								<li><a href="blog.html">Blogs</a></li>
+								<li><a href="aboutsus.html">About Us</a></li>
+							</ul>
+							<a class="header-btn btn small colorful hover-dark" id="inspire-btn" href="booking.html">Start Planning</a>
+							<div class="mobile-menu-btn hamburger hamburger--slider">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div id="mobile-menu"></div>
+					<!-- Sliding bar that appears on clicking Experiences -->
+					<div id="experiences-bar">
+						<ul class="expbar-list">
+						  <li class="expbar-item">
+							<a href="alpineadv.html">
+							  <img src="assets/icons/alpine.png" class="expbar-icons" alt="Alpine Adventures">
+							  <p class="expbar-text">Alpine Adventures</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="culterheritage.html">
+							  <img src="assets/icons/ruins.png" class="expbar-icons" alt="Culture & Heritage Expeditions">
+							  <p class="expbar-text">Culture & Heritage Expeditions</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="leisurethrills.html">
+							  <img src="assets/icons/safari.png" class="expbar-icons" alt="Leisurely Thrills">
+							  <p class="expbar-text">Leisurely Thrills</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="seasonal.html">
+							  <img src="assets/icons/season.png" class="expbar-icons" alt="Seasonal Splendors">
+							  <p class="expbar-text">Seasonal Splendors</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="exclusive.html">
+							  <img src="assets/icons/sign.png" class="expbar-icons" alt="Exclusive Interest Tours">
+							  <p class="expbar-text">Exclusive Interest Tours</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="wellness.html">
+							  <img src="assets/icons/forest.png" class="expbar-icons" alt="Wellness Excursion">
+							  <p class="expbar-text">Wellness Excursion</p>
+							</a>
+						  </li>
+						</ul>
+					  </div>
+					  
+				
+			</div>
+		
+		</header>
+
+        <!--=====================================================================-->
+        <!--======================content start=====================-->
+
+        <section id="content">
+
+			<div id="content-wrap">
+
+                <!-- IMAGE AT THE TOP -->
+
+                <div id="ps-blog" loading="lazy">
+					
+					<div class="section-inner" id="si-2">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<h2 id="title-big">BLOGS</h2>
+									
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+					</div><!-- .section-inner end -->
+				</div>
+
+                <section class="news-section">
+                    <div class="auto-container">
+        
+                        <!-- Add this to the appropriate location in your HTML -->
+                        <div class="row clearfix" id="blog-container">
+                            <!-- Blog posts will be dynamically inserted here -->
+                        </div>
+
+                       
+                    </div>
+                </section>
+
+            </div>
+        </section>
+    
+
+    <!-- Footer Mini
+		============================================= -->
+		<footer class="footer-section" id="footer-section">
+			<div class="container" id="foot-cont">
+				<div class="footer-content pt-5 pb-5" id="footer-content">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12" id="footer-logo">
+							<div class="footer-widget">
+								<div class="footer-logo">
+									<a href="index.html"><img src="assets/logo/logo-white-text.png" class="img-fluid" alt="logo"></a>
+								</div>
+								<div class="footer-text">
+									<p>The Ultimate luxury expedition specialist in Pakistan</p>
+									<a href="tel:+923445053818" style="color: black; font-weight: bold;">
+										<p style="margin: 0;color: black;"><span style="font-weight: bold;">Contact Us:</span> +92 344 505 3818</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4  col-md-5 col-sm-12" id="subscribe">
+							<div class="footer-widget">
+								<div class="footer-widget-heading">
+									<h3>Newsletter</h3>
+								</div>
+								<div class="footer-text">
+									<p>At Crossroads Adventure, we understand how valuable your time is. Sign up for only the most pertinent and interesting travel info.</p>
+								</div>
+								<div class="subscribe-form">
+									<form action="#">
+										<input type="text" placeholder="Email Address">
+									</form>
+									<button> SUBSCRIBE</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4  col-md-5 col-sm-12" id="useful-links">
+							<div class="footer-widget">
+								<div class="footer-social-icon">
+									<span>Follow us</span>
+									<a href="https://www.facebook.com/crossroadsadventure.earth"><img src="assets/icons/facebook.png" class="social-icon"></a>
+									<a href="https://www.instagram.com/crossroadsadventure"><img src="assets/icons/instagram.png" class="social-icon"></a>
+									<a href="https://www.twitter.com/crossroadsAdv "><img src="assets/icons/twitter.png" class="social-icon"></a>
+									<a href="https://www.tiktok.com/@crossroads_adventure "><img src="assets/random/tiktok.png" class="social-icon"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright-area" id="copyright-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 text-center text-lg-left" id="copyright-text">
+							<div class="copyright-text">
+								<p>Copyright &copy; 2024-2025, All Right Reserved <a href="index.html">Crossroads</a></p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 d-none d-lg-block text-center" id="footer-menu">
+							<div class="footer-menu">
+								<a href="#">Privacy</a>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 d-none d-lg-block text-center" id="footer-menu">
+							<div class="footer-menu">
+								<a href="termsandconditions.html">Terms & Condtions</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div><!-- #full-container end -->
+
+	<a class="scroll-top" href="#"><i class="fa fa-angle-up" ></i></a>
+
+
+	<!-- INTERNAL JAVASCRIPT -->
+
+	
+    <script>
+        // Function to fetch blog posts from the backend
+        async function fetchBlogs() {
+            try {
+                const response = await fetch('http://localhost:5000/api/blogs');
+                const blogs = await response.json();
+                
+                const blogContainer = document.getElementById('blog-container');
+                blogs.forEach(blog => {
+                    const blogElement = document.createElement('div');
+                    blogElement.classList.add('news-block', 'col-lg-4', 'col-md-6', 'col-sm-12', 'wow', 'fadeInUp');
+                    blogElement.setAttribute('data-wow-delay', '0ms');
+                    blogElement.setAttribute('data-wow-duration', '1500ms');
+                    console.log(blog.href);
+                    const blogUrl = `/blog/${blog.href}`;
+					
+                    blogElement.innerHTML = `
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <a href="${blogUrl}"><img src="${blog.imageUrl}" alt="${blog.title}"></a>
+                            </div>
+                            <div class="lower-box">
+                                <div class="post-meta">
+                                    <ul class="clearfix">
+                                        <li><span class="far fa-clock"></span> ${new Date(blog.date).toLocaleDateString()}</li>
+                                        <li><span class="far fa-user-circle"></span> ${blog.author}</li>
+                                        <li><span class="far fa-comments"></span> ${blog.commentsCount} Comments</li>
+                                    </ul>
+                                </div>
+                                <h5><a href="${blogUrl}">${blog.title}</a></h5>
+                                <div class="text">${blog.excerpt}</div>
+                                <div class="link-box"><a class="theme-btn" href="${blogUrl}"><span class="flaticon-next-1"></span></a></div>
+                                <p>View the full post: <a href="http://localhost:5500/backend/controllers/blogs/${blog.href}.html">Read full post</a></p>
+                            </div>
+                        </div>`;
+                    blogContainer.appendChild(blogElement);
+                });
+            } catch (error) {
+                console.error('Error fetching blogs:', error);
+            }
+        }
+    
+        // Call the fetchBlogs function when the page loads
+        window.onload = fetchBlogs;
+    </script>
+    
+        
+        
+	<!-- External JavaScripts
+	============================================= -->
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jRespond.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/simple-scrollbar.min.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/scrollIt.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src='js/jquery.magnific-popup.min.js'></script>
+	<script src="js/jquery.waitforimages.min.js"></script>
+	<script src='js/jquery.validate.min.js'></script>
+    <script src="js/google-map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA1vAzZpKh9vsQvF3e4MeClkyYB-MWtnA&callback=initMap"></script>
+	<script src='js/functions.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

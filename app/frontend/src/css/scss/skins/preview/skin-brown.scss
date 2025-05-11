@@ -1,0 +1,186 @@
+/* =====================================================================
+ *   "Brown" Skin
+ * =================================================================== */
+
+
+
+/* Links Colors */
+a { color: #da6540; }
+a:focus { color: #da6540; }
+p a:hover { border-color: #da6540; }
+
+/* Headings */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover { color: #da6540; }
+
+/* Text Colored */
+.colored { color: #da6540; }
+
+/* Scroll Top */
+.scroll-top,
+.scroll-top:focus { background: #da6540; }
+
+/* Buttons */
+.btn.colorful {
+	background: #da6540;
+	border-color: #da6540;
+}
+
+.btn.transparent-colorful {
+	color: #da6540;
+	border-color: #da6540;
+}
+
+.btn.hover-colorful:hover {
+	background: #da6540;
+	border-color: #da6540;
+}
+.btn.hover-transparent-colorful:hover {
+	color: #da6540;
+	border-color: #da6540;
+}
+
+/* Scroll Progress */
+#scroll-progress { background: #da6540; }
+
+/* Forms */
+input[type="submit"],
+input[type="submit"].form-control,
+input[type="submit"],
+input[type="submit"].form-control {
+	background: #da6540;
+}
+
+/* Main Menu */
+.main-menu > li > a.current, .main-menu > li:hover > a,
+.main-menu > li > a:hover {
+	color: #da6540;
+}
+
+.main-menu ul.sub-menu li a:hover, .main-menu ul.sub-menu li:hover > a { color: #da6540; }
+
+.main-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.main-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.main-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+	color: #da6540;
+}
+
+/* Mobile Menu */
+.mobile-menu li:hover > a { color: #da6540; }
+
+.mobile-menu > li > a:hover, .mobile-menu > li > a.current { color: #da6540; }
+
+.mobile-menu.sf-arrows > li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows > li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows > .sfHover > a.sf-with-ul:after {
+	color: #da6540;
+}
+
+.mobile-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+	color: #da6540;
+}
+
+/* Banner Slider */
+.banner-slider .owl-nav [class*="owl-"] { background: #da6540; }
+.slide-content h1::after { background: #da6540; }
+.section-title h6 { color: #da6540; }
+.section-title h2::after { background: #da6540; }
+
+/* Our Services Tabs */
+.os-tabs > li.active { color: #da6540; }
+.os-tabs > li.active::before, .os-tabs > li.active:hover::before {
+	background-color: #da6540;
+}
+
+.os-tabs > li.active::after, .os-tabs > li.active:hover::after { border-bottom-color: #da6540; }
+
+.os-tabs > li.active i {
+	color: #da6540;
+	border-color: #da6540;
+}
+
+/* Lists */
+.list li::before { color: #da6540; }
+
+/* Box Preview */
+.box-preview .box-content .meta li i { color: #da6540; }
+
+/* Rating */
+.rating i { color: #da6540; }
+
+/* Popular Packages */
+.popular-packages-slider .owl-carousel .box-preview:hover .box-content h5 a { color: #da6540; }
+.popular-packages-slider .owl-nav [class*="owl-"] { background: #da6540; }
+.popular-packages-slider .owl-dots .owl-dot.active span, 
+.popular-packages-slider .owl-dots .owl-dot.active:hover span {
+	background: #da6540;
+}
+
+/* CTA Title 1 */
+.cta-title .colored { color: #da6540 !important; }
+.cta-title h1::after { background: #da6540; }
+
+/* Popular Categories */
+.portfolio-categories li a:hover { color: #da6540; }
+.portfolio-categories li a::before { background: #da6540; }
+.portfolio-items-wrap .portfolio-item .overlay > i { background: #da6540; }
+.portfolio-items-wrap .portfolio-item .overlay .overlay-inner::before { background: #da6540; }
+.portfolio-items-wrap .portfolio-item .overlay .sub-title { color: #da6540; }
+.portfolio-single-preview > .project-close:hover { color: #da6540; }
+.portfolio-single-slider .owl-nav [class*="owl-"] { background: #da6540; }
+.portfolio-single-slider .controls span { color: #da6540; }
+.ps-fixedwidth-intro .description .project-close:hover { color: #da6540; }
+.box-info .box-content h5 .numb-count { color: #da6540; }
+.box-info .box-content .meta a:hover { color: #da6540; }
+
+/* Best Events */
+.event-box .content i { color: #da6540; }
+.event-box .content h4 { color: #da6540; }
+.event-box .content-overlay h5 { color: #da6540; }
+.event-box .content-overlay i { color: #da6540; }
+
+/* CTA Title 2 */
+.video-btn i,
+.video-btn i::after { color: #da6540; }
+
+/* Tour Guides */
+.tour-guide-slider .owl-carousel .box-preview .box-content h5 .sub-title { color: #da6540; }
+.tour-guide-slider .owl-carousel .box-preview:hover .box-content h5 a { color: #da6540; }
+.tour-guide-slider .owl-nav [class*="owl-"] { background: #da6540; }
+.tour-guide-slider .owl-dots .owl-dot.active span,
+.tour-guide-slider .owl-dots .owl-dot.active:hover span { background: #da6540; }
+
+/* Happy Clients */
+.testmonial-single .ts-img i { background: #da6540; }
+.testmonial-single .ts-person a:hover { color: #da6540; }
+.testmonials-slider .owl-nav [class*="owl-"] { background: #da6540; }
+.testmonials-slider .owl-dots .owl-dot.active span,
+.testmonials-slider .owl-dots .owl-dot.active:hover span { background: #da6540; }
+
+/* Clients */
+.clients-slider .owl-nav [class*="owl-"] { background: #da6540; }
+.clients-slider .owl-dots .owl-dot.active span,
+.clients-slider .owl-dots .owl-dot.active:hover span { background: #da6540; }
+
+/* Get Connected */
+.contact-info li i { color: #da6540; }
+
+/* Footer */
+.copyrights-message span { color: #da6540; }
+.scroll-top-btn { color: #da6540; }
+
+.scroll-top-btn:hover { background: #da6540; }
+
+
+
+
+
+
+
+

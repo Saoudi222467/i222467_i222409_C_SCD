@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking System</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar button {
+            font-size: 16px;
+            background: none;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            width: 100%;
+            cursor: pointer;
+            border-bottom: 1px solid #34495e;
+        }
+        .sidebar button:hover {
+            background-color: #34495e;
+        }
+        .content {
+            margin-left: 220px; /* Matches sidebar width */
+            padding: 20px;
+            flex: 1;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        form {
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        table th {
+            background-color: #f4f4f4;
+        }
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        table tr:hover {
+            background-color: #f1f1f1;
+        }
+        table button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        table button:hover {
+            background-color: #c0392b;
+        }
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+            .content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <button onclick="window.location.href='createBlog.html'">Create Blog</button>
+        <button onclick="window.location.href='updateBlog.html'">Update Blog</button>
+        <button onclick="window.location.href='deleteBlog.html'">Delete Blog</button>
+        <hr>
+        <button onclick="window.location.href='createTrip.html'">Create Trip</button>
+        <button onclick="window.location.href='updateTrip.html'">Update Trip</button>
+        <button onclick="window.location.href='deleteTrip.html'">Delete Trip</button>
+        <hr>
+        <button onclick="window.location.href='addBooking.html'">Trip Dates Management</button>
+    </div>
+
+    <div class="content">
+        <h1>Booking System</h1>
+        <form id="bookingForm">
+            <input type="text" id="tripName" placeholder="Trip Name" required>
+            <input type="date" id="startingDate" required>
+            <input type="date" id="endingDate" required>
+            <input type="text" id="type" placeholder="Type" required>
+            <input type="number" id="availability" placeholder="Availability" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <button type="submit">Add Booking</button>
+        </form>
+
+        <h2>All Bookings</h2>
+        <table id="bookingTable">
+            <thead>
+                <tr>
+                    <th>Trip Name</th>
+                    <th>Starting Date</th>
+                    <th>Ending Date</th>
+                    <th>Type</th>
+                    <th>Availability</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        const apiUrl = 'http://localhost:5000/api/bookings';
+
+        // Fetch and display bookings
+        async function fetchBookings() {
+            const response = await fetch(apiUrl);
+            const bookings = await response.json();
+            const tableBody = document.querySelector('#bookingTable tbody');
+            tableBody.innerHTML = '';
+
+            bookings.forEach(booking => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${booking.tripName}</td>
+                    <td>${new Date(booking.startingDate).toLocaleDateString()}</td>
+                    <td>${new Date(booking.endingDate).toLocaleDateString()}</td>
+                    <td>${booking.type}</td>
+                    <td>${booking.availability}</td>
+                    <td>${booking.price}</td>
+                    <td>
+                        <button onclick="removeBooking('${booking.tripName}')">Delete</button>
+                    </td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        // Add a new booking
+        document.querySelector('#bookingForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const newBooking = {
+                tripName: document.getElementById('tripName').value,
+                startingDate: document.getElementById('startingDate').value,
+                endingDate: document.getElementById('endingDate').value,
+                type: document.getElementById('type').value,
+                availability: document.getElementById('availability').value,
+                price: document.getElementById('price').value,
+            };
+
+            await fetch(apiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(newBooking),
+            });
+
+            fetchBookings();
+        });
+
+        // Remove a booking
+        async function removeBooking(tripName) {
+            await fetch(`${apiUrl}/${tripName}`, { method: 'DELETE' });
+            fetchBookings();
+        }
+
+        // Load bookings on page load
+        fetchBookings();
+    </script>
+</body>
+</html>

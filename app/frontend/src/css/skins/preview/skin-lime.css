@@ -1,0 +1,249 @@
+/* =====================================================================
+ *   "Lime" Skin
+ * =================================================================== */
+/* Links Colors */
+a {
+  color: #86ba41; }
+
+a:focus {
+  color: #86ba41; }
+
+p a:hover {
+  border-color: #86ba41; }
+
+/* Headings */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #86ba41; }
+
+/* Text Colored */
+.colored {
+  color: #86ba41; }
+
+/* Scroll Top */
+.scroll-top,
+.scroll-top:focus {
+  background: #86ba41; }
+
+/* Buttons */
+.btn.colorful {
+  background: #86ba41;
+  border-color: #86ba41; }
+
+.btn.transparent-colorful {
+  color: #86ba41;
+  border-color: #86ba41; }
+
+.btn.hover-colorful:hover {
+  background: #86ba41;
+  border-color: #86ba41; }
+
+.btn.hover-transparent-colorful:hover {
+  color: #86ba41;
+  border-color: #86ba41; }
+
+/* Scroll Progress */
+#scroll-progress {
+  background: #86ba41; }
+
+/* Forms */
+input[type="submit"],
+input[type="submit"].form-control,
+input[type="submit"],
+input[type="submit"].form-control {
+  background: #86ba41; }
+
+/* Main Menu */
+.main-menu > li > a.current, .main-menu > li:hover > a,
+.main-menu > li > a:hover {
+  color: #86ba41; }
+
+.main-menu ul.sub-menu li a:hover, .main-menu ul.sub-menu li:hover > a {
+  color: #86ba41; }
+
+.main-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.main-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.main-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+  color: #86ba41; }
+
+/* Mobile Menu */
+.mobile-menu li:hover > a {
+  color: #86ba41; }
+
+.mobile-menu > li > a:hover, .mobile-menu > li > a.current {
+  color: #86ba41; }
+
+.mobile-menu.sf-arrows > li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows > li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows > .sfHover > a.sf-with-ul:after {
+  color: #86ba41; }
+
+.mobile-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+  color: #86ba41; }
+
+/* Banner Slider */
+.banner-slider .owl-nav [class*="owl-"] {
+  background: #86ba41; }
+
+.slide-content h1::after {
+  background: #86ba41; }
+
+.section-title h6 {
+  color: #86ba41; }
+
+.section-title h2::after {
+  background: #86ba41; }
+
+/* Our Services Tabs */
+.os-tabs > li.active {
+  color: #86ba41; }
+
+.os-tabs > li.active::before, .os-tabs > li.active:hover::before {
+  background-color: #86ba41; }
+
+.os-tabs > li.active::after, .os-tabs > li.active:hover::after {
+  border-bottom-color: #86ba41; }
+
+.os-tabs > li.active i {
+  color: #86ba41;
+  border-color: #86ba41; }
+
+/* Lists */
+.list li::before {
+  color: #86ba41; }
+
+/* Box Preview */
+.box-preview .box-content .meta li i {
+  color: #86ba41; }
+
+/* Rating */
+.rating i {
+  color: #86ba41; }
+
+/* Popular Packages */
+.popular-packages-slider .owl-carousel .box-preview:hover .box-content h5 a {
+  color: #86ba41; }
+
+.popular-packages-slider .owl-nav [class*="owl-"] {
+  background: #86ba41; }
+
+.popular-packages-slider .owl-dots .owl-dot.active span,
+.popular-packages-slider .owl-dots .owl-dot.active:hover span {
+  background: #86ba41; }
+
+/* CTA Title 1 */
+.cta-title .colored {
+  color: #86ba41 !important; }
+
+.cta-title h1::after {
+  background: #86ba41; }
+
+/* Popular Categories */
+.portfolio-categories li a:hover {
+  color: #86ba41; }
+
+.portfolio-categories li a::before {
+  background: #86ba41; }
+
+.portfolio-items-wrap .portfolio-item .overlay > i {
+  background: #86ba41; }
+
+.portfolio-items-wrap .portfolio-item .overlay .overlay-inner::before {
+  background: #86ba41; }
+
+.portfolio-items-wrap .portfolio-item .overlay .sub-title {
+  color: #86ba41; }
+
+.portfolio-single-preview > .project-close:hover {
+  color: #86ba41; }
+
+.portfolio-single-slider .owl-nav [class*="owl-"] {
+  background: #86ba41; }
+
+.portfolio-single-slider .controls span {
+  color: #86ba41; }
+
+.ps-fixedwidth-intro .description .project-close:hover {
+  color: #86ba41; }
+
+.box-info .box-content h5 .numb-count {
+  color: #86ba41; }
+
+.box-info .box-content .meta a:hover {
+  color: #86ba41; }
+
+/* Best Events */
+.event-box .content i {
+  color: #86ba41; }
+
+.event-box .content h4 {
+  color: #86ba41; }
+
+.event-box .content-overlay h5 {
+  color: #86ba41; }
+
+.event-box .content-overlay i {
+  color: #86ba41; }
+
+/* CTA Title 2 */
+.video-btn i,
+.video-btn i::after {
+  color: #86ba41; }
+
+/* Tour Guides */
+.tour-guide-slider .owl-carousel .box-preview .box-content h5 .sub-title {
+  color: #86ba41; }
+
+.tour-guide-slider .owl-carousel .box-preview:hover .box-content h5 a {
+  color: #86ba41; }
+
+.tour-guide-slider .owl-nav [class*="owl-"] {
+  background: #86ba41; }
+
+.tour-guide-slider .owl-dots .owl-dot.active span,
+.tour-guide-slider .owl-dots .owl-dot.active:hover span {
+  background: #86ba41; }
+
+/* Happy Clients */
+.testmonial-single .ts-img i {
+  background: #86ba41; }
+
+.testmonial-single .ts-person a:hover {
+  color: #86ba41; }
+
+.testmonials-slider .owl-nav [class*="owl-"] {
+  background: #86ba41; }
+
+.testmonials-slider .owl-dots .owl-dot.active span,
+.testmonials-slider .owl-dots .owl-dot.active:hover span {
+  background: #86ba41; }
+
+/* Clients */
+.clients-slider .owl-nav [class*="owl-"] {
+  background: #86ba41; }
+
+.clients-slider .owl-dots .owl-dot.active span,
+.clients-slider .owl-dots .owl-dot.active:hover span {
+  background: #86ba41; }
+
+/* Get Connected */
+.contact-info li i {
+  color: #86ba41; }
+
+/* Footer */
+.copyrights-message span {
+  color: #86ba41; }
+
+.scroll-top-btn {
+  color: #86ba41; }
+
+.scroll-top-btn:hover {
+  background: #86ba41; }
+
+/*# sourceMappingURL=skin-lime.css.map */

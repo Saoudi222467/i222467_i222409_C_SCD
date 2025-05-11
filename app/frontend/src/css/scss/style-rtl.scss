@@ -1,0 +1,666 @@
+/**
+ * File Name: style-rtl.css
+ *
+ * This file contains all "Right to Left" needed
+ * adds and changes. It's imported under style.css
+ * in HTML files.
+ *
+ */
+
+
+/**
+ * styles-rtl.css file is divided as the following:
+ *
+ * ( 01 ) - style.css
+ * ( 02 ) - responsive.css
+ *
+ */
+
+
+// Imports ( Others at Bottom, perhaps! )
+// ==========================================
+
+@import "bootstrap-rtl";
+
+// ==========================================
+
+
+
+ /**
+  *	-------------------------------------------------------------------------------
+  *	( 01 ) - style.css
+  *	-------------------------------------------------------------------------------
+  *
+  *  This part contains all applied codes in style.css file
+  *
+  *	------
+  *
+  *  style.css divided to the following sections:
+  *
+  *	   |
+  *	   |-->  ( 01 ) - General Basics
+  *	   |-->  ( 02 ) - Form Settings
+  *	   |-->  ( 03 ) - Header
+  *	   |-->  ( 04 ) - Banner
+  *	   |-->  ( 05 ) - Content
+  *	   |-->  ( 16 ) - Footer
+  *
+  */
+
+
+
+@import "_variables";
+
+/*  [ 01 ] - General Basics
+============================= */
+
+.mfp-counter {
+	direction: ltr;
+}
+
+/* Body */ 
+body {
+	line-height: $line-height-content;
+	font-weight: 600;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -1px;
+}
+
+h4,
+h5,
+h6 {
+	letter-spacing: -0.3px;
+}
+
+ h1 {  }
+ h2 {  }
+ h3 {  }
+ h4 {  }
+ h5 {  }
+ h6 {  }
+
+/* Buttons */
+.btn {
+	&.large {
+		font-size: 15px;
+	}
+
+	&.medium {
+		font-size: 13px;
+	}
+	
+	&.small {
+		font-size: 12px;
+	}
+}
+
+/* Scroll Top */
+.scroll-top {
+	right: auto;
+	left: -50px;
+
+	&.show {
+		right: auto;
+		left: 15px;
+	}
+}
+
+/* Website Loading */
+#website-loading .title {
+	letter-spacing: 0;
+	font-size: 18px;
+}
+
+
+
+
+
+/*  [ 02 ] - Form Settings
+============================ */
+
+
+
+/*  [ 03 ] - Header
+===================== */
+
+/* Logo */
+.logo {
+	float: right;
+
+	&.logo-text {
+		text-align: right;
+	}
+}
+
+/* Main Menu */
+.main-menu {
+	letter-spacing: -0.2px;
+}
+
+.main-menu li a {
+	font-weight: 700;
+}
+
+.main-menu > li {
+	float: right;
+}
+
+.main-menu > li > a {
+	font-size: 14px;
+}
+
+.main-menu ul.sub-menu {
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.main-menu ul.sub-menu ul {
+	left: auto;
+	right: 100%;
+}
+
+.main-menu.sf-arrows > li > a.sf-with-ul::after {
+	margin: 0 6px 0 0;
+}
+
+.main-menu.sf-arrows ul.sub-menu a.sf-with-ul::after {
+	right: auto;
+	left: 15px;
+	top: 14px;
+	content: "\f104";
+}
+
+/* Header Button */
+.header-btn {
+	float: left;
+}
+
+/* Mobile Menu */
+#mobile-menu {
+  .ss-content {
+    padding: 0 0 0 5px;
+  }
+}
+
+.mobile-menu {
+	text-align: right;
+	letter-spacing: -0.2px;
+	margin: 0 auto -5px;
+}
+
+.mobile-menu ul {
+	padding: 0 15px 0 0;
+}
+
+.mobile-menu li a {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+.mobile-menu.sf-arrows > li > a.sf-with-ul::after {
+	right: auto;
+	left: 0;
+	content: "\f104";
+}
+
+.mobile-menu.sf-arrows ul.sub-menu a.sf-with-ul::after {
+	right: auto;
+	left: 0;
+}
+
+/* Simple Scroll */
+.ss-wrapper {
+	margin: 0 -18px 0 0;
+	float: right;
+}
+
+.ss-content {
+	right: auto;
+	left: -17px;
+}
+
+.ss-scroll {
+	right: auto !important;
+	left: 0 !important;
+}
+
+
+/*  [ 04 ] - Banner
+===================== */
+ 
+.slide-content {
+	h1 {
+		line-height: 88px;
+	}
+
+	.description {
+		line-height: 1.9;
+	}
+} 
+
+
+/*  [ 05 ] - Content
+====================== */
+
+.section-title p {
+	font-size: 14px;
+}
+
+/* Our Services */
+.our-services .col-md-7 {
+	padding: 0 15px 0 50px;
+}
+
+.os-tabs > li {
+	float: right;
+}
+
+.list li::before {
+	margin: 0 0 0 10px;
+}
+
+/* Popular Packages */
+.rating {
+	right: auto;
+	left: 30px;
+}
+
+.box-preview .box-content .meta li {
+	&:last-child {
+		text-align: left;
+	}
+
+	i {
+		margin: 0 0 0 5px;
+	}
+}
+
+/* Our Adventures */
+.portfolio-categories li a {
+	font-size: 14px;
+}
+
+.portfolio-items-wrap .portfolio-item .overlay > i {
+	left: auto;
+	right: 40px;
+}
+
+.portfolio-items-wrap .portfolio-item .overlay h5:not(.sub-title) {
+	margin-bottom: 5px;
+}
+
+.portfolio-items-wrap .portfolio-item .overlay h5:not(.sub-title), 
+.portfolio-items-wrap .portfolio-item .overlay .sub-title {
+	transform: translateX(-30px);
+}
+
+.portfolio-single-loader {
+	margin-right: -16px;
+}
+
+.portfolio-items-wrap .loadmore-pi .loader {
+	top: 5px;
+}
+
+.portfolio-single-slider .controls {
+	span + span {
+		margin: 0 2px 0 0;
+	}
+
+	.prev i,
+	.next i {
+		transform: rotate(180deg);
+	}
+}
+
+.portfolio-single-slider .controls span + span {
+}
+
+.ps-fixedwidth-intro .portfolio-single-preview .controls span:last-child {
+	float: left;
+}
+
+.ps-fixedwidth-intro .portfolio-single-preview .controls span:first-child {
+	float: right;
+}
+
+.ps-fixedwidth-intro .description {
+	margin: 0 -30px 0 0;
+	border-left: 1px solid #ebeef0;
+	border-right: none;
+
+	.section-title {
+		text-align: right;
+
+		h2::before {
+			left: auto;
+			right: 0;
+		}
+
+		h2::after {
+			left: auto;
+			right: 20px;
+		}		
+	}
+
+	.project-close {
+		right: auto;
+		left: -1px;		
+	}
+}
+
+.box-info .box-content .meta a {
+
+	i {
+		float: left;
+		transform: rotate(180deg);
+	}
+
+	&:hover i {
+		right: auto;
+		left: -2px;
+	}
+}
+
+
+/* Best Events */
+.event-box .content-overlay p {
+	line-height: 20px;
+}
+
+
+/* CTA Title 2 */
+.video-btn {
+	font-size: 12px;
+
+	i {
+		text-indent: -3px;
+	}
+}
+
+/* Tour Guides */
+.social-icons li + li {
+	margin: 0 4px 0 0;
+}
+
+.tour-guide-slider .owl-carousel .box-preview .box-content h5 .sub-title {
+	right: auto;
+	left: 0;
+}
+
+/* Happy Clients */
+.testmonial-single .ts-content {
+	font-weight: 400;
+	line-height: 29px;
+}
+
+.testmonial-single .ts-img i {
+	margin: 0 25px 0 0;
+}
+
+.testmonial-single .ts-person {
+	i {
+		margin: 0 0 0 2px;
+	}
+
+	a {
+		margin-right: 3px;
+	}
+}
+
+.client-single img {
+	left: -50%;
+	transform: translate(50%, -50%);
+}
+
+/* Get Connected */
+.contact-info-box:last-child .contact-info li {
+	padding: 0 25px 0 0;
+}
+
+.contact-info li {
+	padding: 0 30px 0 0;
+
+	i {
+		left: auto;
+		right: 0;		
+	}
+
+	span {
+		margin: 0 0 0 10px;
+	}
+}
+
+
+#contact-form label.error {
+	font-weight: 600;
+	font-size: 11px;
+}
+
+.cf-notifications-cont {
+	padding: 10px 43px 10px 15px;
+}
+
+.cf-error-icon, 
+.cf-success-icon {
+	left: auto;
+	right: 10px;
+}
+
+
+
+/*  [ 06 ] - Footer
+===================== */
+
+.logo-footer {
+	float: right;
+}
+
+.scroll-top-btn {
+	float: left;
+}
+
+
+/* Style Switcher */
+.style-switcher {
+	.ss-wrapper {
+		margin: 0 0 0 -18px;
+		float: left;
+	}
+
+	.ss-content {
+		right: -17px;
+		left: auto;
+	}
+
+	.ss-scroll {
+		right: 0 !important;
+		left: auto !important;
+	}
+}
+
+
+/**
+ *	-------------------------------------------------------------------------------
+ *	( 02 ) - responsive.css
+ *	-------------------------------------------------------------------------------
+ *
+ *  This part contains the responsive modifications for small devices widths
+ *
+ *	------
+ *
+ *  It has the following code:
+ *
+ *	   |
+ *	   |-->  [ 1 ] - Width From 1200px to 0
+ *	   |-->  [ 2 ] - Width From 992px to 0
+ *	   |-->  [ 3 ] - Width From 768px to 0
+ *	   |-->  [ 4 ] - Width From 480px to 0
+ *	   |-->  [ 5 ] - Width From 320px to 0
+ *	   |-->  [ 6 ] - Height Form 768px to 0
+ *	   |-->  [ 5 ] - Height Form Maximmum to 768px
+ *	   |-->  [ 8 ] - Height Form Maximmum to 900px
+ *
+ */
+
+
+/**
+ *  [ 1 ] - Width From 1200px to 0
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 1200px) {
+
+
+
+} // < 1200px width
+
+
+/**
+ *  [ 2 ] - Width From 992px to 0
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 992px) {
+
+	/* Header */
+	#header {
+		text-align: right;
+	}
+
+	.mobile-menu-btn {
+		float: left;
+	}
+
+	.header-btn {
+		float: left;
+		margin: 0 20px 0 0;
+	}
+
+	/* Slider */
+	.banner-slider ul li {
+		background-size: initial;
+	}
+
+	.banner-center-box {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.slide-content h1 {
+		line-height: 71px;
+	}
+
+	/* Our Adventures */
+	.ps-fixedwidth-intro .description {
+		margin-right: 0;
+		border-right: 1px solid #ebeef0;
+		border-left: 1px solid #ebeef0;
+	}
+
+	/* Footer Mini */
+	.copyrights-message,
+	.made-by {
+		text-align: center;
+	}
+
+	.made-by {
+		margin-top: 5px;
+	}
+
+
+} // < 992px width
+
+
+/**
+ *  [ 3 ] - Width From 768px to 0
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 768px) {
+
+	/* Banner */
+	.slide-content h1 {
+		line-height: 61px;
+	}
+
+} // < 768px width
+
+
+/**
+ *  [ 4 ] - Width From 480px to 0
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 480px) {
+	
+	/* Banner */
+	.slide-content h1 {
+		line-height: 51px;
+	}
+
+} // < 480px width
+
+
+/**
+ *  [ 5 ] - Width From 320px to 0
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 320px) {
+
+} // < 320px width
+
+
+
+/**
+ *  [ 6 ] - Height From 768px to 0
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-height : 768px) {
+
+
+
+} // < 768px height
+
+
+/**
+ *  [ 5 ] - Height From Maximmum to 768px
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-height : 768px) {
+
+
+
+} // > 768px height
+
+
+/**
+ *  [ 8 ] - Height From Maximmum to 900px
+ *	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-height : 900px) {
+
+
+} // > 900px height
+
+
+

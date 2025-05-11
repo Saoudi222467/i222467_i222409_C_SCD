@@ -1,0 +1,372 @@
+/**
+ * File Name: responsive.css
+ */
+
+/**
+ *	-------------------------------------------------------------------------------
+ *	( 01 ) - Responsive Specifications
+ *	-------------------------------------------------------------------------------
+ *
+ *  This part contains the responsive modifications for small devices widths
+ *
+ *	------
+ *
+ *  It has the following code:
+ *
+ *	   |
+ *	   |-->  [ 01 ] - Width From 1200px to 0
+ *	   |-->  [ 02 ] - Width From 992px to 0
+ *	   |-->  [ 03 ] - Width From 768px to 0
+ *	   |-->  [ 04 ] - Width From 480px to 0
+ *	   |-->  [ 05 ] - Width From 320px to 0
+ *	   |-->  [ 06 ] - Height Form 768px to 0
+ *	   |-->  [ 05 ] - Height Form Maximmum to 768px
+ *	   |-->  [ 08 ] - Height Form Maximmum to 900px
+ *
+ */
+
+
+
+ /*  [ 01 ] - Width From 1200px to 0
+ ===================================== */
+ 
+
+@media (max-width: 1200px) {
+
+
+} // < 1200px width
+
+
+
+ /*  [ 02 ] - Width From 992px to 0
+ ==================================== */ 
+
+@media (max-width: 992px) {
+
+	/* Header */
+	#header {
+		min-height: 90px;
+		height: auto;
+		text-align: left;
+
+		&.sticky #header-wrap {
+			// position: initial;
+			// box-shadow: none;
+		}
+
+		#header-wrap {
+			min-height: 90px;
+			height: auto;
+			overflow: hidden;
+		}
+
+		.logo {
+			float: none;
+			transform: translateY(0);
+			top: 28px;
+		}
+
+		.header-btn {
+			transform: translateY(0);
+			top: 25px;
+		}
+	}
+
+	.main-menu {
+		left: 0;
+		display: none;
+	}
+
+	#mobile-menu {
+
+		.mobile-menu {
+
+		}
+	}
+
+	.mobile-menu-btn {
+		display: inline-block;
+	}
+
+
+	/* Slider */
+	.fullscreen {
+		height: auto !important;
+	}
+
+	.banner-slider {
+		height: 600px !important;
+	}
+
+	.banner-slider ul li {
+		// background-size: initial;
+	}
+
+	.banner-center-box {
+		padding: 60px 15px 100px;
+	}
+
+	.slide-content h1 {
+		font-size: 50px;
+		line-height: 65px;
+	}
+
+	/* Our Services */
+	.our-services {
+		.col-md-7 {
+			padding-right: 15px;
+		}
+	}
+
+	.os-tabs-content > li {
+		padding: 0;
+
+		.img-preview {
+			margin-top: 40px;
+		}
+	}
+
+	/* Our Adventures */
+	.portfolio-single-preview {
+		height: 450px;
+	}
+
+	.ps-fixedwidth-intro .description {
+		margin-left: 0;
+		height: auto;
+		border-left: 1px solid #ebeef0;
+		border-top: none;
+
+		.project-close {
+			top: 0;
+		}
+	}
+
+	/* Our Adventures */
+	.box-info {
+		margin-bottom: 30px;
+	}
+
+	/* Get Connected */
+	.connect-box + .connect-box {
+		margin-bottom: 30px !important;
+	}
+
+	/* Google Map */
+	#map {
+		height: 420px;
+	}
+
+	/* Footer Mini */
+	.copyrights-message,
+	.made-by {
+		text-align: center;
+	}
+
+	.made-by {
+		margin-top: 5px;
+	}
+
+	/* Scroll Top */
+	.scroll-top {
+		display: none !important;
+	}
+
+
+} // < 992px width
+
+
+
+/*  [ 03 ] - Width From 768px to 0
+==================================== */
+
+@media (max-width: 768px) {
+
+	/* Banner Slider */
+	.banner-slider {
+		// height: 480px !important;
+	}
+
+	.slide-content h1 {
+		font-size: 40px;
+		line-height: 55px;
+	}
+
+	/* Popular Packages */
+	.cta-title h1 {
+		font-size: 40px;
+	}
+
+	/* Our Adventures */
+	.portfolio-single-preview {
+		height: 380px;
+	}
+
+	/* Happy Clients */
+	.testmonial-single {
+		width: 80%;
+	}
+
+	/* Mini Footer */
+	#footer-mini {
+		padding: 40px 0;
+	}
+	.logo-footer,
+	.scroll-top-btn {
+		float: none !important;
+		display: block;
+	}
+
+	.scroll-top-btn {
+		margin: 25px auto 0;
+	}
+
+	.copyrights-message {
+		margin-top: 15px;
+		top: 0;
+	}
+
+
+
+
+} // < 768px width
+
+
+
+/*  [ 04 ] - Width From 480px to 0
+==================================== */
+
+@media (max-width: 480px) {
+	
+	.header-btn {
+		display: none;
+	}
+
+	/* Banner Slider */
+	.banner-slider {
+		// height: 420px !important;
+	}
+
+	.slide-content h1 {
+		font-size: 30px;
+		line-height: 45px;
+	}
+
+	/* Our Services */
+	.os-tabs > li {
+		width: 50%;
+		padding-top: 10px;
+
+		&::before,
+		&::after {
+			display: none;
+		}
+	}
+
+	/* Popular Packages */
+	.cta-title {
+		.section-inner {
+			padding: 150px 0;
+		}
+
+		h1 {
+			font-size: 35px;
+		}
+	}
+
+	/* Our Adventures */
+	.portfolio-categories li {
+		display: block;
+	}
+
+	.portfolio-single-preview {
+		height: 320px;
+	}
+
+	/* Best Events */
+	.video-btn {
+		font-size: 0;
+	}
+
+	/* Happy Clients */
+	.testmonial-single {
+		width: 100%;
+	}
+
+	/* Get Connected */
+	.contact-info-box {
+		width: 100%;
+		padding: 0 !important;
+
+		&:last-child {
+			margin-top: 30px;
+		}
+	}
+
+	/* Google Map */
+	#map {
+		height: 380px;
+	}
+
+
+} // < 480px width
+
+
+
+/*  [ 05 ] - Width From 320px to 0
+==================================== */
+
+@media (max-width: 320px) {
+
+	/* Popular Packages */
+	.cta-title {
+		.section-inner {
+			padding: 120px 0;
+		}
+
+		h1 {
+			font-size: 30px;
+		}
+	}
+
+	/* Our Adventures */
+	.portfolio-single-preview {
+		height: 280px;
+	}
+
+} // < 320px width
+
+
+
+/*  [ 06 ] - Height From 768px to 0
+===================================== */
+
+@media (max-height : 768px) {
+
+
+
+} // < 768px height
+
+
+
+/*  [ 07 ] - Height From Maximmum to 768px
+============================================ */
+
+@media (min-height : 768px) {
+
+
+
+} // > 768px height
+
+
+
+/*  [ 08 ] - Height From Maximmum to 900px
+============================================ */
+
+@media (min-height : 900px) {
+
+
+} // > 900px height
+
+
+

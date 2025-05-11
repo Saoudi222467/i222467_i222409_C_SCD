@@ -1,0 +1,186 @@
+/* =====================================================================
+ *   "Turquoise" Skin
+ * =================================================================== */
+
+
+
+/* Links Colors */
+a { color: #0dc0c0; }
+a:focus { color: #0dc0c0; }
+p a:hover { border-color: #0dc0c0; }
+
+/* Headings */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover { color: #0dc0c0; }
+
+/* Text Colored */
+.colored { color: #0dc0c0; }
+
+/* Scroll Top */
+.scroll-top,
+.scroll-top:focus { background: #0dc0c0; }
+
+/* Buttons */
+.btn.colorful {
+	background: #0dc0c0;
+	border-color: #0dc0c0;
+}
+
+.btn.transparent-colorful {
+	color: #0dc0c0;
+	border-color: #0dc0c0;
+}
+
+.btn.hover-colorful:hover {
+	background: #0dc0c0;
+	border-color: #0dc0c0;
+}
+.btn.hover-transparent-colorful:hover {
+	color: #0dc0c0;
+	border-color: #0dc0c0;
+}
+
+/* Scroll Progress */
+#scroll-progress { background: #0dc0c0; }
+
+/* Forms */
+input[type="submit"],
+input[type="submit"].form-control,
+input[type="submit"],
+input[type="submit"].form-control {
+	background: #0dc0c0;
+}
+
+/* Main Menu */
+.main-menu > li > a.current, .main-menu > li:hover > a,
+.main-menu > li > a:hover {
+	color: #0dc0c0;
+}
+
+.main-menu ul.sub-menu li a:hover, .main-menu ul.sub-menu li:hover > a { color: #0dc0c0; }
+
+.main-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.main-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.main-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+	color: #0dc0c0;
+}
+
+/* Mobile Menu */
+.mobile-menu li:hover > a { color: #0dc0c0; }
+
+.mobile-menu > li > a:hover, .mobile-menu > li > a.current { color: #0dc0c0; }
+
+.mobile-menu.sf-arrows > li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows > li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows > .sfHover > a.sf-with-ul:after {
+	color: #0dc0c0;
+}
+
+.mobile-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+	color: #0dc0c0;
+}
+
+/* Banner Slider */
+.banner-slider .owl-nav [class*="owl-"] { background: #0dc0c0; }
+.slide-content h1::after { background: #0dc0c0; }
+.section-title h6 { color: #0dc0c0; }
+.section-title h2::after { background: #0dc0c0; }
+
+/* Our Services Tabs */
+.os-tabs > li.active { color: #0dc0c0; }
+.os-tabs > li.active::before, .os-tabs > li.active:hover::before {
+	background-color: #0dc0c0;
+}
+
+.os-tabs > li.active::after, .os-tabs > li.active:hover::after { border-bottom-color: #0dc0c0; }
+
+.os-tabs > li.active i {
+	color: #0dc0c0;
+	border-color: #0dc0c0;
+}
+
+/* Lists */
+.list li::before { color: #0dc0c0; }
+
+/* Box Preview */
+.box-preview .box-content .meta li i { color: #0dc0c0; }
+
+/* Rating */
+.rating i { color: #0dc0c0; }
+
+/* Popular Packages */
+.popular-packages-slider .owl-carousel .box-preview:hover .box-content h5 a { color: #0dc0c0; }
+.popular-packages-slider .owl-nav [class*="owl-"] { background: #0dc0c0; }
+.popular-packages-slider .owl-dots .owl-dot.active span, 
+.popular-packages-slider .owl-dots .owl-dot.active:hover span {
+	background: #0dc0c0;
+}
+
+/* CTA Title 1 */
+.cta-title .colored { color: #0dc0c0 !important; }
+.cta-title h1::after { background: #0dc0c0; }
+
+/* Popular Categories */
+.portfolio-categories li a:hover { color: #0dc0c0; }
+.portfolio-categories li a::before { background: #0dc0c0; }
+.portfolio-items-wrap .portfolio-item .overlay > i { background: #0dc0c0; }
+.portfolio-items-wrap .portfolio-item .overlay .overlay-inner::before { background: #0dc0c0; }
+.portfolio-items-wrap .portfolio-item .overlay .sub-title { color: #0dc0c0; }
+.portfolio-single-preview > .project-close:hover { color: #0dc0c0; }
+.portfolio-single-slider .owl-nav [class*="owl-"] { background: #0dc0c0; }
+.portfolio-single-slider .controls span { color: #0dc0c0; }
+.ps-fixedwidth-intro .description .project-close:hover { color: #0dc0c0; }
+.box-info .box-content h5 .numb-count { color: #0dc0c0; }
+.box-info .box-content .meta a:hover { color: #0dc0c0; }
+
+/* Best Events */
+.event-box .content i { color: #0dc0c0; }
+.event-box .content h4 { color: #0dc0c0; }
+.event-box .content-overlay h5 { color: #0dc0c0; }
+.event-box .content-overlay i { color: #0dc0c0; }
+
+/* CTA Title 2 */
+.video-btn i,
+.video-btn i::after { color: #0dc0c0; }
+
+/* Tour Guides */
+.tour-guide-slider .owl-carousel .box-preview .box-content h5 .sub-title { color: #0dc0c0; }
+.tour-guide-slider .owl-carousel .box-preview:hover .box-content h5 a { color: #0dc0c0; }
+.tour-guide-slider .owl-nav [class*="owl-"] { background: #0dc0c0; }
+.tour-guide-slider .owl-dots .owl-dot.active span,
+.tour-guide-slider .owl-dots .owl-dot.active:hover span { background: #0dc0c0; }
+
+/* Happy Clients */
+.testmonial-single .ts-img i { background: #0dc0c0; }
+.testmonial-single .ts-person a:hover { color: #0dc0c0; }
+.testmonials-slider .owl-nav [class*="owl-"] { background: #0dc0c0; }
+.testmonials-slider .owl-dots .owl-dot.active span,
+.testmonials-slider .owl-dots .owl-dot.active:hover span { background: #0dc0c0; }
+
+/* Clients */
+.clients-slider .owl-nav [class*="owl-"] { background: #0dc0c0; }
+.clients-slider .owl-dots .owl-dot.active span,
+.clients-slider .owl-dots .owl-dot.active:hover span { background: #0dc0c0; }
+
+/* Get Connected */
+.contact-info li i { color: #0dc0c0; }
+
+/* Footer */
+.copyrights-message span { color: #0dc0c0; }
+.scroll-top-btn { color: #0dc0c0; }
+
+.scroll-top-btn:hover { background: #0dc0c0; }
+
+
+
+
+
+
+
+

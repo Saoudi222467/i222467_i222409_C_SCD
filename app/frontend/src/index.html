@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<!-- Meta
+	============================================= -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1, max-scale=1">
+
+	<!-- Stylesheets
+	============================================= -->
+
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Open+Sans:400,400i,700,700i" rel="stylesheet">
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Cairo:400,400i,700,700i&subset=arabic" rel="stylesheet">
+	<link rel="preload" as="style" href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
+
+	<!-- Favicon
+	============================================= -->
+	<link rel="shortcut icon" href="assets/logo/logo-png.png">
+	<link rel="apple-touch-icon" href="assets/logo/logo-png.png">
+	
+	  <!-- script js-->
+	  <script src="js/script.js" defer></script>
+	<!-- Title
+	============================================= -->
+	<title>Crossroads Adventure</title>
+
+</head>
+
+<body>
+
+	<div id="scroll-progress"><span class="scroll-percent"></span></div>
+
+	<!-- Website Loading
+	============================================= -->	
+	
+
+	<!-- Document Full Container
+	============================================= -->
+	<div id="full-container">
+
+		<!-- Header
+		============================================= -->
+		<header id="header">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<a class="logo" href="index.html">
+								<img src="assets/logo/logo-png.png" id="header-logo" alt="" loading="lazy">
+							</a>
+							<ul class="main-menu" id="main-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="experiencespage.html" ><span id="experiences-link">Experiences<i class="fa fa-caret-down" aria-hidden="true" style="margin-left:5px ;"></i></span></a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
+								<li><a href="blog.html">Blogs</a></li>
+								<li><a href="aboutsus.html">About Us</a></li>
+							</ul>
+							<a class="header-btn btn small colorful hover-dark" id="inspire-btn" href="booking.html">Start Planning</a>
+							<div class="mobile-menu-btn hamburger hamburger--slider">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				<div id="mobile-menu"></div>
+					<!-- Sliding bar that appears on clicking Experiences -->
+					<div id="experiences-bar">
+						<ul class="expbar-list">
+						  <li class="expbar-item">
+							<a href="alpineadv.html">
+							  <img src="assets/icons/alpine.png" class="expbar-icons" alt="Alpine Adventures">
+							  <p class="expbar-text">Alpine Adventures</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="culterheritage.html">
+							  <img src="assets/icons/ruins.png" class="expbar-icons" alt="Culture & Heritage Expeditions">
+							  <p class="expbar-text">Culture & Heritage Expeditions</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="leisurethrills.html">
+							  <img src="assets/icons/safari.png" class="expbar-icons" alt="Leisurely Thrills">
+							  <p class="expbar-text">Leisurely Thrills</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="seasonal.html">
+							  <img src="assets/icons/season.png" class="expbar-icons" alt="Seasonal Splendors">
+							  <p class="expbar-text">Seasonal Splendors</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="exclusive.html">
+							  <img src="assets/icons/sign.png" class="expbar-icons" alt="Exclusive Interest Tours">
+							  <p class="expbar-text">Exclusive Interest Tours</p>
+							</a>
+						  </li>
+						  <li class="expbar-item">
+							<a href="wellness.html">
+							  <img src="assets/icons/forest.png" class="expbar-icons" alt="Wellness Excursion">
+							  <p class="expbar-text">Wellness Excursion</p>
+							</a>
+						  </li>
+						</ul>
+					  </div>
+					  
+					
+			</div>
+		
+		</header>
+		
+
+		<!-- Slider
+		============================================= -->
+		<section id="banner">
+
+			<div id="home" class="banner-parallax" data-scroll-index="0">
+
+				<div class="banner-slider">
+					<ul class="slider-img-bg">
+						<li>
+							<div class="slide">
+								<video class="video inline"
+										autoplay
+										loop
+										muted
+										playsinline
+										preload="auto"
+										style="
+											width: 100vw; /* Full width of the viewport */
+											height: 100vh; /* Full height of the viewport */
+											object-fit: cover; /* Cover the area while maintaining aspect ratio */
+											overflow: hidden; /* Hide overflow content */
+											position: relative; /* Position relative for potential child elements */
+										"
+										loading="lazy"
+										>
+										<source src="assets/slider-vid.mp4" type="video/mp4">
+										Your browser does not support the video tag.
+										</video>
+
+								  
+								  
+								<div class="slide-content">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-8 col-md-offset-2">
+
+												<div class="banner-center-box text-center">
+													<h1>
+														Adventure Now
+													</h1>
+													<a class="btn medium colorful hover-dark" href="testimonials.html">Inspire Me</a>
+												</div><!-- .banner-center-box end -->
+
+											</div><!-- .col-md-12 end -->
+										</div><!-- .row end -->
+									</div><!-- .container end -->
+								</div><!-- .slide-content end -->
+							</div><!-- .slide end -->
+						</li>
+					</ul>
+				</div><!-- .banner-slider end -->
+
+			</div><!-- .banner-parallax end -->
+			<div class="scroll-indicator">
+				<div class="scroll-text">Scroll</div>
+				<div class="scroll-line"></div>
+			</div>
+			
+		</section><!-- #banner end -->
+		
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div id="content-wrap">
+
+				<!-- === Our Services =========== -->
+				<div id="our-services" class="flat-section our-services" data-scroll-index="1">
+
+					<div class="section-title">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+
+									<h2>THE ULTIMATE LUXURY EXPEDITION SPECIALIST IN PAKISTAN</h2>
+									<p>
+										At Crossroads Adventure, we believe in more than just exploring. We believe in curating extraordinary experiences. Our passion is connecting discerning explorers to Pakistan's most breathtaking landscapes, rich heritage, and vibrant cultures. Our bespoke luxury journeys are crafted with meticulous care, ensuring your adventure is seamless, sustainable, and unforgettable. Let us start planning your remarkable expedition.
+									</p>
+
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-title end -->
+
+				</div><!-- .flat-section end -->
+
+				<!-- === Popular Packages =========== -->
+				<div id="popular-packages" class="flat-section popular-packages" data-scroll-index="1">
+
+					<div class="section-title">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+
+									<h2>Signature Experiences</h2>
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-title end -->
+
+
+				</div><!-- .flat-section end -->
+
+				<!-- === Our Adventures =========== -->
+				<div id="our-adventures" class="flat-section our-adventures" data-scroll-index="2">
+
+
+					<div class="portfolio-top"></div>
+					<div class="section-content">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									
+									<ul class="portfolio-categories">
+										<li><a data-filter="*" class="active" href="#">All</a></li>
+										<li><a data-filter=".pi-world-tour" href="#">World Tour</a></li>
+										<li><a data-filter=".pi-nanga-parbat" href="#">Nanga Parbat</a></li>
+										<li><a data-filter=".pi-hunza" href="#">Hunza</a></li>
+									</ul>
+								
+								</div><!-- .col-md-12 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+						
+						<div id="portfolio-single-wrap">
+
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12">
+							
+											<div class="portfolio-single-loader">
+												<div class="loader-shape la-ball-clip-rotate la-dark">
+												    <div></div>
+												</div>
+											</div><!-- end portfolio-single-loader -->
+											<div class="clearfix"></div>
+											<div id="portfolio-single-content"></div>
+							
+									</div><!-- .col-md-12 end -->
+								</div><!-- .row end -->
+							</div><!-- .container-fluid end -->
+
+						</div><!-- end portfolio-single-wrap -->
+
+						<div class="portfolio-items-wrap">
+
+							<div class="container-fluid texture-experiences">
+								<div class="row">
+									<div class="col-md-12">
+										
+										<div class="portfolio-items">
+											
+											<div class="portfolio-item pi-world-tour">
+												<div class="preview img-bg">
+													<img src="assets/cultureheritage/sheesh.webp" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="majesticMughar-ch6.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>Majestic Mughal Trails</h5>
+														<h5 class="sub-title">Culture and Heritage Experience</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="majesticMughar-ch6.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->	
+
+											<div class="portfolio-item pi-world-tour">
+												<div class="preview img-bg">
+													<img src="assets/leisurethrills/k-e-3.jpg" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="kashmirEscape-lt3.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>Kashmir Escapade</h5>
+														<h5 class="sub-title">Leisurely Thrills</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="kashmirEscape-lt3.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->	
+											
+											
+											<div class="portfolio-item pi-hunza">
+												<div class="preview img-bg">
+													<img src="assets/leisurethrills/hnz.jpg" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="hunzaFairy-lt6.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>Hunza & Fairy Meadows Expedition</h5>
+														<h5 class="sub-title">Leisurely Thrills</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="hunzaFairy-lt6.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->
+
+											<div class="portfolio-item pi-hunza">
+												<div class="preview img-bg">
+													<img src="assets/experiences/autumn.jpg" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="rnAutumnTour-ss3.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>Hunza Pakistan Autumn Expedition</h5>
+														<h5 class="sub-title">Seasonal Splendors</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="rnAutumnTour-ss3.htm"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->
+											
+											<div class="portfolio-item pi-summer-tour">
+												<div class="preview img-bg">
+													<img src="assets/experiences/k2exp.jpg" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="rnK2BaseCamp-aa5.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>K2 base camp Expedition</h5>
+														<h5 class="sub-title">Alpine Adventures</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="rnK2BaseCamp-aa5.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->
+											
+											<div class="portfolio-item pi-nanga-parbat">
+												<div class="preview img-bg">
+													<img src="assets/experiences/npexp.jpg" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="rnpNangaParbat-aa6.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>Rakaposhi & Nanga parbat base camp expedtion</h5>
+														<h5 class="sub-title">Alpine Adventures</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="rnpNangaParbat-aa6.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->
+											
+											<div class="portfolio-item pi-world-tour">
+												<div class="preview img-bg">
+													<img src="assets/experiences/unescoexp.jpg" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="Unesco-ch11.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>UNCESCO Heritage Site Experience Pakistan</h5>
+														<h5 class="sub-title">Culture and Heritage Experience</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="Unesco-ch11.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->
+											
+											<div class="portfolio-item pi-world-tour">
+												<div class="preview img-bg">
+													<img src="assets/experiences/unesco.webp" alt="" loading="lazy">
+												</div><!-- .preview end -->
+												<a class="overlay" href="rnptripdetailsindex.html">
+													<i class="fa fa-file-text"></i>
+													<div class="overlay-inner">
+														<h5>Patundas Gojal Trekking Expedition </h5>
+														<h5 class="sub-title">Alpine Adventures</h5>
+													</div><!-- .overlay-inner end -->
+												</a><!-- .overlay end -->
+												<div>
+								                    <a href="rnptripdetailsindex.html"></a>
+								                </div><!-- end portfolio-single-link -->
+											</div><!-- .portfolio-item -->
+									</div><!-- .col-md-12 end -->
+									<div class="col-md-12">
+									
+										
+									
+									</div><!-- .col-md-12 end -->
+								</div><!-- .row end -->
+							</div><!-- .container-fluid end -->		
+
+						</div><!-- .portfolio-items-wrap end -->
+
+					</div><!-- .section-content end -->
+
+				</div><!-- .flat-section end -->
+
+				<!-- === Best Events =========== -->
+				<div id="best-events" class="flat-section best-events" data-scroll-index="3">
+
+					<div class="section-title">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+
+									<h2>Explore Your Options</h2>
+
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-title end -->
+
+					<div class="section-content  explore-color">
+
+						<div class="container ">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<a href="privatecustomizedtrip.html"><div class="event-box">
+								<img src="assets/bg/ep1.jpg" class="explore-options-imgs">
+								<div class="content">
+									<img src="assets/icons/6b-01.png" class="explore-icons">
+								<h4>Private Customized Trip</h4>
+								</div>
+								<div class="content-overlay">
+								<h5>Private Customized Trip</h5>
+								<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+								<img src="assets/icons/6a-01.png" >
+								</div>
+							</div>
+							</div></a>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<a href="grouptrips.html"><div class="event-box">
+								<img src="assets/bg/ep2.jpg" class="explore-options-imgs">
+								<div class="content">
+									<img src="assets/icons/7b-01.png" class="explore-icons2">
+
+								<h4>Scheduled Group Trips</h4>
+								</div>
+								<div class="content-overlay">
+								<h5>Scheduled Group Trips</h5>
+								<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+								<img src="assets/icons/7a-01.png" class="explore-icons2">
+
+								</div>
+							</div>
+							</a>
+							</div>
+						</div>
+					</div>
+	
+
+					</div><!-- .section-content end -->
+
+				</div><!-- .flat-section end -->
+
+				
+				<hr>
+				<!-- === Tour Guides =========== -->
+				<div id="tour-guide" class="flat-section tour-guide" data-scroll-index="4">
+
+					<div class="section-title reduce-section-title2">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+
+									<h2>Our Premiere Advantage</h2>
+									
+
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-title end -->
+
+					<div class="section-content overlaycolour">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-1 col-md-6 col-12 d-none d-lg-block"></div>
+
+								<div class="col-lg-2 col-md-12 col-12">
+									<img src="assets/icons/1a-01.png" class="prem-icons" loading="lazy">
+									<div class="text-container  pad">
+										
+										<h4>Guaranteed Departure</h4>
+										<p>We’re the only company in Pakistan with guaranteed departures for every journey.</p>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-6 col-12">
+									<img src="assets/icons/2a-01.png" class="prem-icons" loading="lazy">
+									<div class="text-container">
+										
+										<h4>Credit for the Future</h4>
+										<p>Your deposit remains valid for two years if you cancel up to 20 days prior, until you're ready to Adventure.</p>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-6 col-12">
+									<img src="assets/icons/3a-01.png" class="prem-icons" loading="lazy">		
+									<div class="text-container pad2">
+										<h4>Fair Pricing</h4>
+										<p>We commit to transparent pricing with no surprise bills. Any additional costs will be clearly communicated and require your prior approval.</p>
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-6 col-12">
+									<img src="assets/icons/4a-01.png" class="prem-icons" loading="lazy">
+									<div class="text-container">
+										<h4>Payment Flexibility </h4>
+										<p>Secure your trip with an initial deposit, and settle the remaining balance at an agreed time before departure.</p>
+
+									</div>
+								</div>
+								<div class="col-lg-2 col-md-6 col-12">
+									<img src="assets/icons/5a-01.png" class="prem-icons" loading="lazy">
+									<div class="text-container pad">
+										<h4>Customizable Trips</h4>
+										<p>Design your perfect adventure with our flexible itineraries, tailored to your preferences and interests.</p>
+
+									</div>
+								</div>
+								<div class="col-lg-1 col-md-6 col-12 d-none d-lg-block"></div>
+
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-content end -->
+
+				</div><!-- .flat-section end -->
+
+
+
+				<!-- === CTA Title 1 =========== -->
+				<div data-scroll-index="1" id="ps-1" loading="lazy">
+					<div class="overlay-colored" id="oc-3"></div>
+					<div class="section-inner" id="si-1">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center">
+									<h2 id="title-big">Distinctions</h2>
+									<ul class="distinctions-list">
+										<li><img src="assets/icons/icon-authentic.png">Authentic experiences</li>
+										<li><img src="assets/icons/icon-private.png">Customized and private excursions</li>
+										<li><img src="assets/icons/icon-bespoke.png">Luxury bespoke journeys</li>
+										<li><img src="assets/icons/icon-sustainableprac.png">Insider knowledge</li>
+										<li><img src="assets/icons/icon-247.png">24/7 services</li>
+									</ul>
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+					</div><!-- .section-inner end -->
+				</div><!-- .parallax-section end -->
+				
+				
+			
+
+
+	
+
+				<!-- === Get Connected =========== -->
+				<div id="get-connected" class="flat-section get-connected" data-scroll-index="6">
+
+					<div class="section-title remove-section-pad">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+
+									<h2>Core Partners</h2>	
+
+								</div><!-- .col-md-8 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-title end -->
+
+
+					<div class="section-content" id="partnersabove4">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+								
+									<div class="testmonials-slider">
+										<ul class="owl-carousel">
+											<li>
+												<div class="slide" style="display: flex; justify-content:center">
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/1.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/2.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/16.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/4.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide" style="display: flex; justify-content:center">
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/5.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/6.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/7.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/8.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide" style="display: flex; justify-content:center">
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/9.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/10.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/11.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/12.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide" style="display: flex; justify-content:center">
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/13.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/14.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													<div class="hexagon" style="display: inline-block;">
+														<img src="assets/partners/3.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+													
+												</div><!-- .slide end -->
+											</li>
+											
+										</ul>
+									</div><!-- .testmonials-slider end -->
+
+									
+								</div><!-- .col-md-12 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-content end -->
+
+					
+					<div class="section-content" id="partnersbelow4">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+								
+									<div class="testmonials-slider">
+										<ul class="owl-carousel">
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/1.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/2.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/16.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/4.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/5.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/6.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/7.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/8.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/9.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/10.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/11.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/12.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/13.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/14.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="hexagon">
+														<img src="assets/partners/3.png" loading="lazy" alt="Column 10 Image" class="hexagon-image">
+													</div>
+												</div><!-- .slide end -->
+											</li>
+										</ul>
+									</div><!-- .testmonials-slider end -->
+
+									
+								</div><!-- .col-md-12 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-content end -->
+					
+
+				</div><!-- .flat-section end -->
+
+				
+			</div><!-- #content-wrap -->
+
+		</section><!-- #content end -->
+
+
+	
+
+		<!-- Footer Mini
+		============================================= -->
+		<footer class="footer-section" id="footer-section">
+			<div class="container" id="foot-cont">
+				<div class="footer-content pt-5 pb-5" id="footer-content">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12" id="footer-logo">
+							<div class="footer-widget">
+								<div class="footer-logo">
+									<a href="index.html"><img src="assets/logo/logo-white-text.png" class="img-fluid" alt="logo"></a>
+								</div>
+								<div class="footer-text">
+									<p>The Ultimate luxury expedition specialist in Pakistan</p>
+									<a href="tel:+923445053818" style="color: black; font-weight: bold;">
+										<p style="margin: 0;color: black;"><span style="font-weight: bold;">Contact Us:</span> +92 344 505 3818</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4  col-md-5 col-sm-12" id="subscribe">
+							<div class="footer-widget">
+								<div class="footer-widget-heading">
+									<h3>Newsletter</h3>
+								</div>
+								<div class="footer-text">
+									<p>At Crossroads Adventure, we understand how valuable your time is. Sign up for only the most pertinent and interesting Adventure info.</p>
+								</div>
+								<div class="subscribe-form">
+									<form action="#">
+										<input type="text" placeholder="Email Address">
+									</form>
+									<button> SUBSCRIBE</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4  col-md-5 col-sm-12" id="useful-links">
+							<div class="footer-widget">
+								<div class="footer-social-icon">
+									<span>Follow us</span>
+									<a href="https://www.facebook.com/crossroadsadventure.earth"><img src="assets/icons/facebook.png" class="social-icon"></a>
+									<a href="https://www.instagram.com/crossroadsadventure"><img src="assets/icons/instagram.png" class="social-icon"></a>
+									<a href="https://www.twitter.com/crossroadsAdv "><img src="assets/icons/twitter.png" class="social-icon"></a>
+									<a href="https://www.tiktok.com/@crossroads_adventure "><img src="assets/random/tiktok.png" class="social-icon"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright-area" id="copyright-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 text-center text-lg-left" id="copyright-text">
+							<div class="copyright-text">
+								<p>Copyright &copy; 2024-2025, All Right Reserved <a href="index.html">Crossroads</a></p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 d-none d-lg-block text-center" id="footer-menu">
+							<div class="footer-menu">
+								<a href="#">Privacy</a>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 d-none d-lg-block text-center" id="footer-menu">
+							<div class="footer-menu">
+								<a href="termsandconditions.html">Terms & Condtions</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		
+
+
+
+
+
+	</div><!-- #full-container end -->
+
+	<a class="scroll-top" href="#"><i class="fa fa-angle-up" ></i></a>
+
+
+
+	
+	
+	<!-- External JavaScripts
+	============================================= -->
+	<script async defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script  src="js/jRespond.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/simple-scrollbar.min.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/scrollIt.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src='js/jquery.magnific-popup.min.js'></script>
+	<script src="js/jquery.waitforimages.min.js"></script>
+	<script src='js/jquery.validate.min.js'></script>
+    <script async defer src="js/google-map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA1vAzZpKh9vsQvF3e4MeClkyYB-MWtnA&callback=initMap"></script>
+	<script src='js/functions.js'></script>
+
+</body>
+</html>

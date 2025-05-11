@@ -1,0 +1,12 @@
+
+==============
+
+Please use update.scss and update.js if you want to insert updates 
+or change, rather than changing in the main files. So if i added
+any changes or updates, there will not be any conflict or removing
+any made contents.
+
+Regards,
+Morad
+
+==============
