@@ -16,8 +16,8 @@ COPY docker/frontend/server.js ./
 # Create src directory
 RUN mkdir -p src
 
-# Copy all files from app/frontend/src to src
-COPY app/frontend/src/* ./src/
+# Recursively copy all files and folders from app/frontend/src to src
+COPY app/frontend/src ./src
 
 # Expose port
 EXPOSE 3000
