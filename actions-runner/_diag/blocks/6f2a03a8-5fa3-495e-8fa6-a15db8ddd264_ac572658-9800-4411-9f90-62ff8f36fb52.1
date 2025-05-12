@@ -1,0 +1,155 @@
+﻿2025-05-12T10:52:21.4114831Z ##[group]Run docker/setup-buildx-action@v3
+2025-05-12T10:52:21.4115923Z with:
+2025-05-12T10:52:21.4116412Z   driver: docker-container
+2025-05-12T10:52:21.4116932Z   install: false
+2025-05-12T10:52:21.4117407Z   use: true
+2025-05-12T10:52:21.4117840Z   cache-binary: true
+2025-05-12T10:52:21.4118305Z   cleanup: true
+2025-05-12T10:52:21.4118860Z ##[endgroup]
+2025-05-12T10:52:22.1566550Z ##[group]Docker info
+2025-05-12T10:52:22.2580069Z [command]"C:\Program Files\Docker\Docker\resources\bin\docker.exe" version
+2025-05-12T10:52:22.3476317Z Client:
+2025-05-12T10:52:22.3481193Z  Version:           28.0.4
+2025-05-12T10:52:22.3481840Z  API version:       1.48
+2025-05-12T10:52:22.3482406Z  Go version:        go1.23.7
+2025-05-12T10:52:22.3483047Z  Git commit:        b8034c0
+2025-05-12T10:52:22.3483478Z  Built:             Tue Mar 25 15:07:48 2025
+2025-05-12T10:52:22.3483970Z  OS/Arch:           windows/amd64
+2025-05-12T10:52:22.3484391Z  Context:           desktop-linux
+2025-05-12T10:52:22.3484664Z 
+2025-05-12T10:52:22.3485064Z Server: Docker Desktop 4.40.0 (187762)
+2025-05-12T10:52:22.3485492Z  Engine:
+2025-05-12T10:52:22.3485786Z   Version:          28.0.4
+2025-05-12T10:52:22.3486228Z   API version:      1.48 (minimum version 1.24)
+2025-05-12T10:52:22.3486698Z   Go version:       go1.23.7
+2025-05-12T10:52:22.3487080Z   Git commit:       6430e49
+2025-05-12T10:52:22.3487471Z   Built:            Tue Mar 25 15:07:22 2025
+2025-05-12T10:52:22.3487908Z   OS/Arch:          linux/amd64
+2025-05-12T10:52:22.3488347Z   Experimental:     false
+2025-05-12T10:52:22.3488844Z  containerd:
+2025-05-12T10:52:22.3489200Z   Version:          1.7.26
+2025-05-12T10:52:22.3489984Z   GitCommit:        753481ec61c7c8955a23d6ff7bc8e4daed455734
+2025-05-12T10:52:22.3491093Z  runc:
+2025-05-12T10:52:22.3491569Z   Version:          1.2.5
+2025-05-12T10:52:22.3492107Z   GitCommit:        v1.2.5-0-g59923ef
+2025-05-12T10:52:22.3492698Z  docker-init:
+2025-05-12T10:52:22.3493178Z   Version:          0.19.0
+2025-05-12T10:52:22.3493790Z   GitCommit:        de40ad0
+2025-05-12T10:52:22.5130731Z [command]"C:\Program Files\Docker\Docker\resources\bin\docker.exe" info
+2025-05-12T10:52:22.8573185Z Client:
+2025-05-12T10:52:22.8573672Z  Version:    28.0.4
+2025-05-12T10:52:22.8574155Z  Context:    desktop-linux
+2025-05-12T10:52:22.8574672Z  Debug Mode: false
+2025-05-12T10:52:22.8575104Z  Plugins:
+2025-05-12T10:52:22.8575629Z   ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+2025-05-12T10:52:22.8576547Z     Version:  v1.1.3
+2025-05-12T10:52:22.8577252Z     Path:     C:\Program Files\Docker\cli-plugins\docker-ai.exe
+2025-05-12T10:52:22.8578003Z   buildx: Docker Buildx (Docker Inc.)
+2025-05-12T10:52:22.8578572Z     Version:  v0.22.0-desktop.1
+2025-05-12T10:52:22.8579264Z     Path:     C:\Program Files\Docker\cli-plugins\docker-buildx.exe
+2025-05-12T10:52:22.8580056Z   cloud: Docker Cloud (Docker Inc.)
+2025-05-12T10:52:22.8580631Z     Version:  0.2.20
+2025-05-12T10:52:22.8581264Z     Path:     C:\Program Files\Docker\cli-plugins\docker-cloud.exe
+2025-05-12T10:52:22.8582030Z   compose: Docker Compose (Docker Inc.)
+2025-05-12T10:52:22.8582635Z     Version:  v2.34.0-desktop.1
+2025-05-12T10:52:22.8583221Z     Path:     C:\Program Files\Docker\cli-plugins\docker-compose.exe
+2025-05-12T10:52:22.8584104Z   debug: Get a shell into any image or container (Docker Inc.)
+2025-05-12T10:52:22.8584813Z     Version:  0.0.38
+2025-05-12T10:52:22.8585336Z     Path:     C:\Program Files\Docker\cli-plugins\docker-debug.exe
+2025-05-12T10:52:22.8586442Z   desktop: Docker Desktop commands (Beta) (Docker Inc.)
+2025-05-12T10:52:22.8587292Z WARNING: No blkio throttle.read_bps_device support
+2025-05-12T10:52:22.8588020Z WARNING: No blkio throttle.write_bps_device support
+2025-05-12T10:52:22.8588782Z WARNING: No blkio throttle.read_iops_device support
+2025-05-12T10:52:22.8589717Z WARNING: No blkio throttle.write_iops_device support
+2025-05-12T10:52:22.8590482Z WARNING: DOCKER_INSECURE_NO_IPTABLES_RAW is set
+2025-05-12T10:52:22.8591271Z WARNING: daemon is not using the default seccomp profile
+2025-05-12T10:52:22.8596378Z     Version:  v0.1.6
+2025-05-12T10:52:22.8597048Z     Path:     C:\Program Files\Docker\cli-plugins\docker-desktop.exe
+2025-05-12T10:52:22.8597885Z   dev: Docker Dev Environments (Docker Inc.)
+2025-05-12T10:52:22.8598913Z     Version:  v0.1.2
+2025-05-12T10:52:22.8599794Z     Path:     C:\Program Files\Docker\cli-plugins\docker-dev.exe
+2025-05-12T10:52:22.8600705Z   extension: Manages Docker extensions (Docker Inc.)
+2025-05-12T10:52:22.8602123Z     Version:  v0.2.27
+2025-05-12T10:52:22.8602786Z     Path:     C:\Program Files\Docker\cli-plugins\docker-extension.exe
+2025-05-12T10:52:22.8603842Z   init: Creates Docker-related starter files for your project (Docker Inc.)
+2025-05-12T10:52:22.8604691Z     Version:  v1.4.0
+2025-05-12T10:52:22.8605321Z     Path:     C:\Program Files\Docker\cli-plugins\docker-init.exe
+2025-05-12T10:52:22.8606471Z   sbom: View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc.)
+2025-05-12T10:52:22.8607475Z     Version:  0.6.0
+2025-05-12T10:52:22.8608094Z     Path:     C:\Program Files\Docker\cli-plugins\docker-sbom.exe
+2025-05-12T10:52:22.8608867Z   scout: Docker Scout (Docker Inc.)
+2025-05-12T10:52:22.8609723Z     Version:  v1.17.0
+2025-05-12T10:52:22.8610333Z     Path:     C:\Program Files\Docker\cli-plugins\docker-scout.exe
+2025-05-12T10:52:22.8611080Z 
+2025-05-12T10:52:22.8611246Z Server:
+2025-05-12T10:52:22.8611611Z  Containers: 4
+2025-05-12T10:52:22.8611998Z   Running: 4
+2025-05-12T10:52:22.8612402Z   Paused: 0
+2025-05-12T10:52:22.8612783Z   Stopped: 0
+2025-05-12T10:52:22.8613159Z  Images: 9
+2025-05-12T10:52:22.8613533Z  Server Version: 28.0.4
+2025-05-12T10:52:22.8614002Z  Storage Driver: overlayfs
+2025-05-12T10:52:22.8614555Z   driver-type: io.containerd.snapshotter.v1
+2025-05-12T10:52:22.8615157Z  Logging Driver: json-file
+2025-05-12T10:52:22.8615650Z  Cgroup Driver: cgroupfs
+2025-05-12T10:52:22.8616118Z  Cgroup Version: 1
+2025-05-12T10:52:22.8616515Z  Plugins:
+2025-05-12T10:52:22.8616897Z   Volume: local
+2025-05-12T10:52:22.8617394Z   Network: bridge host ipvlan macvlan null overlay
+2025-05-12T10:52:22.8618297Z   Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+2025-05-12T10:52:22.8619152Z  CDI spec directories:
+2025-05-12T10:52:22.8619821Z   /etc/cdi
+2025-05-12T10:52:22.8620218Z   /var/run/cdi
+2025-05-12T10:52:22.8620630Z  Swarm: inactive
+2025-05-12T10:52:22.8621142Z  Runtimes: io.containerd.runc.v2 nvidia runc
+2025-05-12T10:52:22.8621816Z  Default Runtime: runc
+2025-05-12T10:52:22.8622286Z  Init Binary: docker-init
+2025-05-12T10:52:22.8622954Z  containerd version: 753481ec61c7c8955a23d6ff7bc8e4daed455734
+2025-05-12T10:52:22.8623712Z  runc version: v1.2.5-0-g59923ef
+2025-05-12T10:52:22.8624225Z  init version: de40ad0
+2025-05-12T10:52:22.8624698Z  Security Options:
+2025-05-12T10:52:22.8625132Z   seccomp
+2025-05-12T10:52:22.8625501Z    Profile: unconfined
+2025-05-12T10:52:22.8626062Z  Kernel Version: 5.15.167.4-microsoft-standard-WSL2
+2025-05-12T10:52:22.8626810Z  Operating System: Docker Desktop
+2025-05-12T10:52:22.8627328Z  OSType: linux
+2025-05-12T10:52:22.8627758Z  Architecture: x86_64
+2025-05-12T10:52:22.8628216Z  CPUs: 20
+2025-05-12T10:52:22.8628591Z  Total Memory: 15.43GiB
+2025-05-12T10:52:22.8629058Z  Name: docker-desktop
+2025-05-12T10:52:22.8629550Z  ID: d77528d0-f732-47e6-b886-e02b7db93ca0
+2025-05-12T10:52:22.8630363Z  Docker Root Dir: /var/lib/docker
+2025-05-12T10:52:22.8630931Z  Debug Mode: false
+2025-05-12T10:52:22.8631595Z  HTTP Proxy: http.docker.internal:3128
+2025-05-12T10:52:22.8632300Z  HTTPS Proxy: http.docker.internal:3128
+2025-05-12T10:52:22.8633221Z  No Proxy: hubproxy.docker.internal
+2025-05-12T10:52:22.8664702Z  Labels:
+2025-05-12T10:52:22.8665649Z   com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-05-12T10:52:22.8666473Z  Experimental: false
+2025-05-12T10:52:22.8666985Z  Insecure Registries:
+2025-05-12T10:52:22.8667541Z   hubproxy.docker.internal:5555
+2025-05-12T10:52:22.8682445Z   ::1/128
+2025-05-12T10:52:22.8683235Z   127.0.0.0/8
+2025-05-12T10:52:22.8683995Z  Live Restore Enabled: false
+2025-05-12T10:52:22.8684560Z 
+2025-05-12T10:52:22.8706434Z ##[endgroup]
+2025-05-12T10:52:23.1923201Z ##[group]Buildx version
+2025-05-12T10:52:23.4375462Z [command]"C:\Program Files\Docker\Docker\resources\bin\docker.exe" buildx version
+2025-05-12T10:52:23.6379030Z github.com/docker/buildx v0.22.0-desktop.1 b45d7a53aa26a5e76aae051acdb15775c0e178da
+2025-05-12T10:52:23.6574635Z ##[endgroup]
+2025-05-12T10:52:23.8436569Z ##[group]Creating a new builder instance
+2025-05-12T10:52:24.5581863Z [command]"C:\Program Files\Docker\Docker\resources\bin\docker.exe" buildx create --name builder-72ec49a8-fb7e-4bae-a47b-a083eca22d21 --driver docker-container --buildkitd-flags "--allow-insecure-entitlement security.insecure --allow-insecure-entitlement network.host" --use
+2025-05-12T10:52:24.8658003Z builder-72ec49a8-fb7e-4bae-a47b-a083eca22d21
+2025-05-12T10:52:24.9018133Z ##[endgroup]
+2025-05-12T10:52:24.9019230Z ##[group]Booting builder
+2025-05-12T10:52:25.1923793Z [command]"C:\Program Files\Docker\Docker\resources\bin\docker.exe" buildx inspect --bootstrap --builder builder-72ec49a8-fb7e-4bae-a47b-a083eca22d21
+2025-05-12T10:52:25.4623353Z #1 [internal] booting buildkit
+2025-05-12T10:52:25.6226304Z #1 pulling image moby/buildkit:buildx-stable-1
+2025-05-12T10:57:01.2342769Z #1 pulling image moby/buildkit:buildx-stable-1 275.8s done
+2025-05-12T10:57:01.2404277Z #1 ERROR: failed to read expected number of bytes: unexpected EOF
+2025-05-12T10:57:01.2408231Z ------
+2025-05-12T10:57:01.2409829Z  > [internal] booting buildkit:
+2025-05-12T10:57:01.2412566Z ------
+2025-05-12T10:57:01.2462162Z ERROR: failed to read expected number of bytes: unexpected EOF
+2025-05-12T10:57:01.2711828Z ##[endgroup]
+2025-05-12T10:57:01.2750087Z ##[error]ERROR: failed to read expected number of bytes: unexpected EOF

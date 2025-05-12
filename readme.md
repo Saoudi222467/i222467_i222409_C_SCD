@@ -1,3 +1,65 @@
+# Crossroads Adventure System (C_SCD)
+
+A containerized, Kubernetes-ready full-stack application for managing and booking adventure trips. This repository encompasses:
+
+- **App**  
+  - **adminpanel** – React-based admin UI for trip, blog, and availability management  
+  - **backend**    – Node.js/Express REST API  
+  - **frontend**   – Public-facing website (HTML, SCSS, JS)
+
+- **Docker**  
+  Dockerfiles and helper scripts to build each component as a container image.
+
+- **K8s**  
+  Kubernetes manifests (Deployments, Services, Ingresses, Secrets, etc.) for production-style deployment.
+
+- **.github/workflows**  
+  CI/CD pipelines (build, test, lint, deploy) for GitHub Actions.
+
+- **Documentation**  
+  High-level design docs, API specifications, and operational runbooks.
+
+---
+
+## Table of Contents
+
+1. [Prerequisites](#prerequisites)  
+2. [Local Development](#local-development)  
+   - [Admin Panel](#admin-panel)  
+   - [Backend API](#backend-api)  
+   - [Frontend Website](#frontend-website)  
+3. [Docker Builds](#docker-builds)  
+4. [Kubernetes Deployment](#kubernetes-deployment)  
+5. [CI/CD](#cicd)  
+6. [Project Structure](#project-structure)  
+7. [Contributing](#contributing)  
+8. [License & Contacts](#license--contacts)
+
+---
+
+## Prerequisites
+
+- [Node.js & npm](https://nodejs.org/) (v16+)  
+- [Docker Engine](https://docs.docker.com/engine/)  
+- [kubectl](https://kubernetes.io/docs/tasks/tools/) & access to a Kubernetes cluster  
+- (Optional) [Helm](https://helm.sh/) if you use charts  
+- A running MongoDB instance (or update environment variables to point to your own MongoDB Atlas)
+
+---
+
+## Local Development
+
+> **Tip:** You can also spin up all three components via Docker Compose in `docker/`—see [Docker Builds](#docker-builds).
+
+### Admin Panel
+
+```bash
+cd app/adminpanel
+npm install
+npm run start
+
+
+
 # Admin Panel README
 
 ## Overview

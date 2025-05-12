@@ -1,0 +1,65 @@
+[2025-05-12 17:47:18Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'Credentials': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.credentials'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'Runner': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.runner'
+[2025-05-12 17:47:18Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-05-12 17:47:18Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2025-05-12 17:47:18Z INFO Listener] Version: 2.323.0
+[2025-05-12 17:47:18Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-05-12 17:47:18Z INFO Listener] Culture: en-PK
+[2025-05-12 17:47:18Z INFO Listener] UI Culture: en-US
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO Listener] Validating directory permissions for: 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO CommandLineParser] Parse
+[2025-05-12 17:47:18Z INFO CommandLineParser] Parsing 1 args
+[2025-05-12 17:47:18Z INFO CommandLineParser] parsing argument
+[2025-05-12 17:47:18Z INFO CommandLineParser] HasArgs: False
+[2025-05-12 17:47:18Z INFO CommandLineParser] Adding Command: run
+[2025-05-12 17:47:18Z INFO Listener] Arguments parsed
+[2025-05-12 17:47:18Z INFO Runner] ExecuteCommand
+[2025-05-12 17:47:18Z INFO ConfigurationStore] currentAssemblyLocation: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin\Runner.Listener.dll
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] binPath: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] RootFolder: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'Runner': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.runner'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] ConfigFilePath: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.runner
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.runner_migrated'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.runner_migrated
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'Credentials': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.credentials'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] CredFilePath: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.credentials
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.credentials_migrated'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] MigratedCredFilePath: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.credentials_migrated
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Bin': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\bin'
+[2025-05-12 17:47:18Z INFO HostContext] Well known directory 'Root': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc'
+[2025-05-12 17:47:18Z INFO HostContext] Well known config file 'Service': 'C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.service'
+[2025-05-12 17:47:18Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Saoud Work\Projects\Projects\crossroads\travelly-html-travel-tourism-landing-page-2023-11-27-04-58-08-utc\.service
+[2025-05-12 17:47:18Z INFO CommandSettings] Flag 'help': 'False'
+[2025-05-12 17:47:18Z INFO CommandSettings] Flag 'version': 'False'
+[2025-05-12 17:47:18Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-05-12 17:47:18Z INFO CommandSettings] Flag 'check': 'False'
+[2025-05-12 17:47:18Z INFO CommandSettings] Command 'configure': 'False'
+[2025-05-12 17:47:18Z INFO CommandSettings] Command 'remove': 'False'
+[2025-05-12 17:47:18Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-05-12 17:47:18Z INFO ConfigurationManager] LoadSettings
+[2025-05-12 17:47:18Z INFO ConfigurationStore] IsConfigured()
+[2025-05-12 17:47:18Z INFO ConfigurationStore] IsConfigured: False
+[2025-05-12 17:47:18Z INFO ConfigurationManager] Is configured: False
+[2025-05-12 17:47:18Z ERR  Terminal] WRITE ERROR: An error occurred: Not configured. Run config.(sh/cmd) to configure the runner.
+[2025-05-12 17:47:18Z ERR  Listener] GitHub.Runner.Common.NonRetryableException: Not configured. Run config.(sh/cmd) to configure the runner.
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.LoadSettings()
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+   at GitHub.Runner.Listener.Program.MainAsync(IHostContext context, String[] args)
