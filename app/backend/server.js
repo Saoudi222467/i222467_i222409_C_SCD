@@ -68,6 +68,9 @@ app.post('/send-email', (req, res) => {
   });
 });
 
+// Health check endpoint for Kubernetes
+app.get('/health', (req, res) => res.send('OK'));
+
 // Start the server (port managed by Vercel)
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
